@@ -1,0 +1,96 @@
+html  
+ {font size=18px;} 
+
+ body {
+    background-color:rgba(18, 161, 251, 0.274)
+    
+}
+img {
+    width: 200px;
+    height: 200px;
+  
+}
+a{color:red}
+
+h2, h3, h4, h5{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 1.563em;
+    margin: 0;
+    padding-bottom: .3em;
+    text-decoration: underline;
+  
+}
+h1 { font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 2.563em;
+    margin: 0;
+    padding-bottom: .3em;
+    text-align: center;
+
+} 
+p{ font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 1.073em;
+    margin: 0;
+    padding-bottom: 1em;
+padding-top: 1em}
+
+
+center{ display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;}
+pre{font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 1.073em;
+    margin: 0;
+    padding-bottom: .3em;
+    text-align: center;
+}
+
+article {
+    -webkit-column-count: 2;
+       -moz-column-count: 2;
+            column-count: 2;
+            -webkit-column-width: 220px;
+            -moz-column-width: 220px;
+                 column-width: 220px;
+                 -webkit-column-gap: 3em;
+     -moz-column-gap: 3em;
+          column-gap: 3em;        
+  }
+ 
+
+<style>
+a:link {
+    color: rgb(255, 42, 42); 
+    background-color: transparent; 
+    text-decoration: none;
+    text-emphasis-color: red;
+}
+
+a:visited {
+    color: blueviolet
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: orangered;
+    background-color: transparent;
+    text-decoration: underline;
+}
+</style>
+
+footer{
+    background-color:blue;
+    padding: 10px;
+    
+    }
